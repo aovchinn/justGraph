@@ -1,18 +1,18 @@
-.App {
-  text-align: center;
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font: 14px Helvetica, Arial, sans-serif;
 }
 
-.App-header {
-  background-color: #f8f8f8;
-  height: 150px;
-  padding: 20px;
-  color: #3d464d;
+#app {
+    flex: 1 0 auto;
+    padding: 0px 50px;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-code {
-  color: #e73a37;
+.line {
+    fill: none;
+    stroke: #025d52;
+    clip-path: url(#viewClip);
 }

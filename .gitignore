@@ -1,7 +1,14 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+/node_modules/*
+!/node_modules/inferno-scripts
+/node_modules/inferno-scripts/*
+!/node_modules/inferno-scripts/config
+/node_modules/inferno-scripts/config/*
+!/node_modules/inferno-scripts/config/webpackDevServer.config.js
+
+/server/node_modules
 
 # testing
 /coverage
